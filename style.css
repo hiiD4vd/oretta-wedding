@@ -191,6 +191,10 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   transition: all 0.3s ease;
   cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-outline {
@@ -237,6 +241,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero-buttons {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   gap: 1rem;
   margin-bottom: 1rem;
 }
@@ -723,8 +729,78 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Responsive */
 @media (max-width: 768px) {
+  .hero-new {
+    height: auto;
+    min-height: auto;
+    padding-top: 90px;
+    padding-bottom: 20px;
+  }
+  
+  .hero-top {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero-text-container {
+    text-align: left;
+  }
+  
+  .hero-image-wrapper {
+    aspect-ratio: 4 / 5;
+    height: auto;
+    flex-grow: 0;
+    margin-bottom: 1rem;
+    border-radius: 30px;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+
+  .grid-overlay h3 {
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .grid-overlay p {
+    font-size: 0.7rem;
+  }
+
+  .badge {
+    font-size: 0.6rem;
+    padding: 0.2rem 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .hamburger {
+    display: flex !important;
+  }
+
   .nav-links {
-    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--white);
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1.5rem;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: -1;
+  }
+  
+  .nav-links.active {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
   }
   
   .about-grid {

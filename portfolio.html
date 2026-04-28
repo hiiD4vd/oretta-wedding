@@ -2,8 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/jpeg" href="/images/logo.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Our Signature Collections | WA Wedding Planner</title>
+    
+    <!-- Open Graph Meta Tags for Social Media / WhatsApp -->
+    <meta property="og:title" content="Our Signature Collections | WA Wedding Planner" />
+    <meta property="og:description" content="A curated selection of our finest works. Every wedding is a masterpiece, crafted with precision, love, and our signature trendsetting touch." />
+    <meta property="og:image" content="https://wa-wedding.vercel.app/images/banner.png" />
+    <meta property="og:url" content="https://wa-wedding.vercel.app/portfolio.html" />
+    <meta property="og:type" content="website" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
@@ -20,15 +28,25 @@
     <!-- Navigation -->
     <nav class="navbar" style="mix-blend-mode: normal; background-color: var(--black); box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);">
       <div class="nav-container">
-        <div class="logo"><a href="/index.html">WA Planner.</a></div>
+        <div class="logo">
+          <a href="/index.html" style="display: flex; align-items: center; gap: 10px;">
+            <img src="/images/logo.jpg" alt="WA Planner Logo" style="height: 40px; border-radius: 50%;" />
+            WA Planner.
+          </a>
+        </div>
         <div class="nav-links">
           <a href="/index.html#about" class="nav-link">About</a>
           <a href="/portfolio.html" class="nav-link">Portfolio</a>
-          <a href="/index.html#team" class="nav-link">Team</a>
+          <a href="/index.html#services" class="nav-link">Services</a>
           <a href="/index.html#contact" class="nav-link">Contact</a>
         </div>
-        <div class="nav-btn">
+        <div class="nav-btn" style="display: flex; align-items: center; gap: 1rem;">
           <a href="https://wa.me/6282112752221" class="btn btn-outline" target="_blank">Reach Us</a>
+          <button class="hamburger" aria-label="Menu" style="background: none; border: none; cursor: pointer; display: none; flex-direction: column; gap: 5px;">
+            <span style="display: block; width: 25px; height: 2px; background-color: var(--white); transition: all 0.3s ease;"></span>
+            <span style="display: block; width: 25px; height: 2px; background-color: var(--white); transition: all 0.3s ease;"></span>
+            <span style="display: block; width: 25px; height: 2px; background-color: var(--white); transition: all 0.3s ease;"></span>
+          </button>
         </div>
       </div>
     </nav>
