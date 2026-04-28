@@ -729,13 +729,36 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Responsive */
 @media (max-width: 768px) {
+  .logo a {
+    white-space: nowrap;
+    font-size: 1.2rem;
+  }
+  
+  .logo a img {
+    height: 30px !important;
+  }
+
+  .nav-btn .btn {
+    display: none;
+  }
+
+  .btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.75rem;
+  }
+
   .hero-new {
     height: auto;
     min-height: auto;
-    padding-top: 90px;
+    padding-top: 120px;
     padding-bottom: 20px;
   }
   
+  .hero-new .hero-title {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+  }
+
   .hero-top {
     flex-direction: column-reverse;
     align-items: flex-start;
