@@ -750,7 +750,7 @@ h1, h2, h3, h4, h5, h6 {
   .hero-new {
     height: auto;
     min-height: auto;
-    padding-top: 120px;
+    padding-top: 100px;
     padding-bottom: 20px;
   }
   
@@ -771,7 +771,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   .hero-image-wrapper {
-    aspect-ratio: 4 / 5;
+    aspect-ratio: 4 / 3;
     height: auto;
     flex-grow: 0;
     margin-bottom: 1rem;
