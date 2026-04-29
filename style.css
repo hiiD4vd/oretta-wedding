@@ -831,8 +831,29 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   .stats-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
     text-align: center;
+    gap: 1rem;
+  }
+  
+  .stats-grid .stat-item:last-child {
+    grid-column: span 2;
+  }
+  
+  .cta-box {
+    padding: 2rem 1.5rem;
+  }
+  
+  .cta-box h3 {
+    font-size: 1.8rem;
+  }
+  
+  .cta-box .btn {
+    white-space: normal;
+    padding: 1rem;
+    width: 100%;
+    font-size: 0.8rem;
+    line-height: 1.4;
   }
   
   .services-grid {
@@ -862,6 +883,10 @@ h1, h2, h3, h4, h5, h6 {
   
   .location-card:hover .arrow {
     transform: translateY(5px);
+  }
+
+  .custom-cursor {
+    display: none !important;
   }
 }
 
