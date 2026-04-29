@@ -1,0 +1,228 @@
+          <!-- Venue List -->
+          <div class="venue-list-container reveal-fade" style="background: var(--black); color: var(--white); padding: 4rem 3rem; border-radius: 20px; margin-bottom: 4rem; box-shadow: 0 20px 40px rgba(0,0,0,0.2);">
+            <h3 class="text-center" style="font-family: var(--font-heading); font-size: clamp(1.8rem, 3vw, 2.5rem); margin-bottom: 3rem; color: var(--gold);">PILIHAN PAKET VENUE INTIMATE</h3>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1.5rem; max-height: 80vh; overflow-y: auto; padding-right: 1rem; padding-bottom: 1rem;">
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/portfolio_1.png" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">Mang Kabayan</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp24.000.000</p>
+                </div>
+              </div>
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/portfolio_2.png" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">Ganesha</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp24.000.000</p>
+                </div>
+              </div>
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/portfolio_3.png" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">RM Alam Pilemburan</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp24.000.000</p>
+                </div>
+              </div>
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/portfolio_4.png" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">Kopi Tahura</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp24.000.000</p>
+                </div>
+              </div>
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/portfolio_5.png" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">Airmen 25</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp24.000.000</p>
+                </div>
+              </div>
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/portfolio_6.png" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">Ngopdoel</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp26.400.000</p>
+                </div>
+              </div>
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/wa_weddingplanner_639514205_18386872477153361_6399780977498644749_n.jpg" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">Saoeng Paberik</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp32.400.000</p>
+                </div>
+              </div>
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/wa_weddingplanner_626624517_18384099499153361_494313317223290399_n.jpg" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">Atmosphere</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp33.800.000</p>
+                </div>
+              </div>
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/portfolio_1.png" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">90 Gourment</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp33.850.000</p>
+                </div>
+              </div>
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/portfolio_2.png" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">Dapoer Paberik</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp34.850.000</p>
+                </div>
+              </div>
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/portfolio_3.png" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">Senusa</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp34.900.000</p>
+                </div>
+              </div>
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/portfolio_4.png" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">Beehive</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp35.850.000</p>
+                </div>
+              </div>
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/portfolio_5.png" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">Tjendana Bistro</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp36.900.000</p>
+                </div>
+              </div>
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/portfolio_6.png" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">Kapulaga</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp38.300.000</p>
+                </div>
+              </div>
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/wa_weddingplanner_639514205_18386872477153361_6399780977498644749_n.jpg" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">Nara Park</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp40.850.000</p>
+                </div>
+              </div>
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/wa_weddingplanner_626624517_18384099499153361_494313317223290399_n.jpg" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">Steikhaus</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp40.850.000</p>
+                </div>
+              </div>
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/portfolio_1.png" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">Boda Barn</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp40.850.000</p>
+                </div>
+              </div>
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/portfolio_2.png" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">Selaras</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp41.900.000</p>
+                </div>
+              </div>
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/portfolio_3.png" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">Nuuji</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp24.500.000</p>
+                </div>
+              </div>
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/portfolio_4.png" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">Bahagia Kopi</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp31.800.000</p>
+                </div>
+              </div>
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/portfolio_5.png" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">Tebu Hotel</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp28.800.000</p>
+                </div>
+              </div>
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/portfolio_6.png" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">Fave Hper Square Paskal</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp28.800.000</p>
+                </div>
+              </div>
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/wa_weddingplanner_639514205_18386872477153361_6399780977498644749_n.jpg" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">Luminor Hotel</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp28.800.000</p>
+                </div>
+              </div>
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/wa_weddingplanner_626624517_18384099499153361_494313317223290399_n.jpg" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">Pasar Baru Square</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp28.900.000</p>
+                </div>
+              </div>
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/portfolio_1.png" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">Selasih</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp26.400.000</p>
+                </div>
+              </div>
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/portfolio_2.png" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">Paviliun Sunda</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp26.500.000</p>
+                </div>
+              </div>
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/portfolio_3.png" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">Teras Ciseupan</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp29.300.000</p>
+                </div>
+              </div>
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/portfolio_4.png" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">Puri 188</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp29.350.000</p>
+                </div>
+              </div>
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/portfolio_5.png" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">Lisung Dulang</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp28.850.000</p>
+                </div>
+              </div>
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/portfolio_6.png" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">Kafe Kupu Kupu</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp28.400.000</p>
+                </div>
+              </div>
+              <div class="venue-card" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; cursor: pointer;">
+                <img src="/images/wa_weddingplanner_639514205_18386872477153361_6399780977498644749_n.jpg" style="width: 100%; height: 280px; object-fit: cover; filter: brightness(0.8);" />
+                <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1rem 1rem;">
+                  <h4 style="color: var(--white); margin: 0 0 0.2rem; font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.2;">Neka Coffee</h4>
+                  <p style="color: var(--gold); margin: 0; font-weight: 600; font-size: 1.2rem;">Rp28.150.000</p>
+                </div>
+              </div>
+            </div>
+            <div style="margin-top: 3rem; text-align: center; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 2rem;">
+              <p style="font-family: var(--font-heading); font-size: 1.5rem; color: var(--gold); margin-bottom: 0.5rem; font-style: italic;">dengan banyaknya pilihan venue...</p>
+              <p style="font-size: 1rem; color: rgba(255,255,255,0.7); letter-spacing: 1px;">Detail request dan upgrade venue hubungi admin</p>
+            </div>
+          </div>
