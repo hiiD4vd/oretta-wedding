@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/jpeg" href="/images/logo.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Oretta Wedding Organizer | Trend Setter Wedding Planner</title>
+    <title>Oretta Wedding Organizer | Crafting Your Golden Moment</title>
     
     <!-- Open Graph Meta Tags for Social Media / WhatsApp -->
-    <meta property="og:title" content="Oretta Wedding Organizer | Trend Setter Wedding Planner" />
-    <meta property="og:description" content="A premier wedding planning service dedicated to crafting bespoke, luxurious weddings. We set the trends that others follow." />
+    <meta property="og:title" content="Oretta Wedding Organizer | Crafting Your Golden Moment" />
+    <meta property="og:description" content="A premier wedding planning and event organizing service based in Bandung Raya. We are dedicated to crafting your golden moments into reality with our bespoke, luxurious touch." />
     <meta property="og:image" content="https://wa-wedding.vercel.app/images/banner_compressed.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -47,7 +47,7 @@
           <a href="#contact" class="nav-link">Contact</a>
         </div>
         <div class="nav-btn" style="display: flex; align-items: center; gap: 1rem;">
-          <a href="https://wa.me/6285973929029" class="btn btn-outline" target="_blank">Reach Us</a>
+          <a href="https://wa.me/6285973929029?text=Halo%20Admin%20Oretta,%20saya%20ingin%20konsultasi%20mengenai%20Wedding%20Package" class="btn btn-outline" target="_blank">Reach Us</a>
           <button class="hamburger" aria-label="Menu" style="background: none; border: none; cursor: pointer; display: none; flex-direction: column; gap: 5px;">
             <span style="display: block; width: 25px; height: 2px; background-color: var(--black); transition: all 0.3s ease;"></span>
             <span style="display: block; width: 25px; height: 2px; background-color: var(--black); transition: all 0.3s ease;"></span>
@@ -63,7 +63,7 @@
       <section class="hero-new" id="home">
         <div class="hero-top">
           <div class="hero-buttons">
-            <a href="https://wa.me/6285973929029" class="btn btn-outline" style="border-color: var(--black); color: var(--black); border-radius: 50px;">Consultation 💬</a>
+            <a href="https://wa.me/6285973929029?text=Halo%20Admin%20Oretta,%20saya%20ingin%20konsultasi%20mengenai%20Wedding%20Package" class="btn btn-outline" style="border-color: var(--black); color: var(--black); border-radius: 50px;">Consultation 💬</a>
             <a href="#portfolio" class="btn btn-primary" style="background: var(--black); color: var(--white); border-radius: 50px;">View Portfolio →</a>
           </div>
           <div class="hero-text-container">
@@ -77,172 +77,264 @@
         </div>
       </section>
 
-      <!-- About Section -->
-      <section class="about section-padding" id="about">
-        <div class="container">
-          <div class="about-grid">
-            <div class="about-text">
-              <h2 class="section-title reveal-text"><span class="script-initial">R</span>edefining <br/> Elegance</h2>
-              <p class="reveal-fade">We are Oretta Wedding Organizer, a premier wedding planning service dedicated to crafting bespoke, luxurious weddings. With a massive following of 750k+ on TikTok, we set the trends that others follow.</p>
+      <!-- About & Services Section -->
+      <section class="about-services section-padding" id="about">
+        <div class="container" style="max-width: 1400px; padding: 0 5%;">
+          
+          <!-- Top Row (About) -->
+          <div class="about-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 6rem; align-items: center; margin-bottom: 6rem;">
+            <div class="about-text" style="padding-right: 2rem;">
+              <h2 style="font-family: var(--font-heading); font-size: clamp(2.5rem, 4vw, 3.5rem); color: var(--black); line-height: 1.1; margin-bottom: 2rem;" class="reveal-text">Crafting Your <br/> Golden Moment</h2>
+              <p class="reveal-fade" style="font-size: 1.1rem; color: var(--text-dark); line-height: 1.8; margin-bottom: 3rem; font-weight: 300;">We are Oretta Wedding Organizer, a premier wedding planner and event organizer based in Bandung Raya. From finding your perfect wedding venue, to budgeting and concept creation, we will take care of exactly what you want us to do, so you can relax and enjoy your wedding.</p>
               
-              <div class="stats-grid reveal-fade">
-                <div class="stat-item">
-                  <h3>750K+</h3>
-                  <p>TikTok Followers</p>
+              <div style="display: flex; gap: 1rem; align-items: center;" class="reveal-fade">
+                <a href="#packages" class="btn btn-outline" style="border: 1px solid var(--black); color: var(--black); padding: 1rem 2.5rem; border-radius: 50px; text-transform: none; font-size: 1rem; font-weight: 500;">Get in touch ↗</a>
+              </div>
+            </div>
+            
+            <div class="about-images reveal-image" style="height: clamp(400px, 60vh, 600px); border-radius: 30px; overflow: hidden; box-shadow: 0 15px 40px rgba(0,0,0,0.1);">
+              <img src="/images/Crafting_NoText.jpg" alt="Oretta Wedding Organizer Team" style="width: 100%; height: 100%; object-fit: cover; object-position: center 30%;" data-scroll data-scroll-speed="0.1" />
+            </div>
+          </div>
+
+          <!-- Bottom Row (Testimonials & Services) -->
+          <div id="services" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 6rem; align-items: start; scroll-margin-top: 100px;">
+            
+            <!-- Left side: Stats or Testimonials -->
+            <div class="reveal-fade" style="padding-right: 2rem;">
+              <h3 style="font-family: var(--font-body); font-weight: 600; font-size: 0.9rem; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 2rem; color: var(--black);">What Our Couples Say</h3>
+              <p style="font-family: var(--font-heading); font-size: clamp(1.2rem, 2vw, 1.5rem); font-style: italic; color: var(--text-dark); margin-bottom: 3rem; line-height: 1.6;">"From the beautiful decor to the seamless coordination, Oretta made our dream wedding a reality."<br><span style="font-family: var(--font-body); font-size: 1rem; font-style: normal; font-weight: 600; display: block; margin-top: 1rem;">— Laura & David</span></p>
+              
+              <div style="display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap;">
+                <div style="width: clamp(120px, 15vw, 150px); height: clamp(120px, 15vw, 150px); border-radius: 20px; overflow: hidden;">
+                   <img src="/images/wa_weddingplanner_645509220_18388809946153361_9164901203461665803_n.jpg" style="width: 100%; height: 100%; object-fit: cover; object-position: center 25%;" alt="Wedding Details" />
                 </div>
-                <div class="stat-item">
-                  <h3>2</h3>
-                  <p>Main Offices</p>
-                </div>
-                <div class="stat-item">
-                  <h3>100+</h3>
-                  <p>Dream Weddings</p>
+                <div style="background: var(--gray); padding: 2rem; border-radius: 20px; flex-grow: 1; text-align: center; display: flex; flex-direction: column; justify-content: center; height: clamp(120px, 15vw, 150px);">
+                  <h4 style="font-size: clamp(1.8rem, 3vw, 2.5rem); margin: 0 0 0.5rem; font-family: var(--font-heading); color: var(--black);">100+</h4>
+                  <p style="margin: 0; color: var(--text-dark); font-size: 0.9rem;">Satisfied Couples</p>
                 </div>
               </div>
             </div>
-            <div class="about-image reveal-image">
-              <img src="/images/Redefining%20Elegance.jpg" alt="Redefining Elegance - Oretta Wedding Organizer" data-scroll data-scroll-speed="0.2" />
+
+            <!-- Right side: Services List -->
+            <div class="reveal-fade">
+              <div style="margin-bottom: 2.5rem;">
+                <p style="font-size: 1.1rem; color: var(--text-dark); font-weight: 300; line-height: 1.8;">Planning a celebration should be a joyous journey, not a stressful one. Let us take the reins, so you can savor every moment leading up to your special day.</p>
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 1rem;">
+                <div style="border: 1px solid rgba(0,0,0,0.1); border-radius: 50px; padding: 1.2rem 2.5rem; display: flex; align-items: center; gap: 1.5rem; background: var(--white); transition: all 0.3s ease; cursor: default;">
+                  <span style="font-family: var(--font-body); font-weight: 500; color: var(--black);">01.</span>
+                  <h3 style="margin: 0; font-family: var(--font-body); font-weight: 400; font-size: 1.1rem; color: var(--black);">Full Wedding Planning</h3>
+                </div>
+                <div style="border: 1px solid rgba(0,0,0,0.1); border-radius: 50px; padding: 1.2rem 2.5rem; display: flex; align-items: center; gap: 1.5rem; background: var(--white); transition: all 0.3s ease; cursor: default;">
+                  <span style="font-family: var(--font-body); font-weight: 500; color: var(--black);">02.</span>
+                  <h3 style="margin: 0; font-family: var(--font-body); font-weight: 400; font-size: 1.1rem; color: var(--black);">D-Day Coordination</h3>
+                </div>
+                <div style="border: 1px solid rgba(0,0,0,0.1); border-radius: 50px; padding: 1.2rem 2.5rem; display: flex; align-items: center; gap: 1.5rem; background: var(--white); transition: all 0.3s ease; cursor: default;">
+                  <span style="font-family: var(--font-body); font-weight: 500; color: var(--black);">03.</span>
+                  <h3 style="margin: 0; font-family: var(--font-body); font-weight: 400; font-size: 1.1rem; color: var(--black);">Intimate Engagement</h3>
+                </div>
+              </div>
             </div>
+            
           </div>
         </div>
       </section>
-      <!-- Services Section -->
-      <section class="services section-padding" id="services">
+
+      <!-- How to Order Section -->
+      <section class="how-to-order section-padding" id="how-to-order">
         <div class="container">
-          <div class="services-header text-center reveal-fade">
-            <h2 class="section-title"><span class="script-initial">B</span>espoke Services</h2>
-            <p>Tailored solutions for your once-in-a-lifetime moment.</p>
+          <div class="text-center reveal-fade" style="margin-bottom: 3rem;">
+            <h2 class="section-title"><span class="script-initial">A</span>lur Pemesanan</h2>
+            <p>Langkah mudah mewujudkan pernikahan impian Anda bersama kami.</p>
           </div>
-          <div class="services-grid reveal-fade">
-            <div class="service-card">
-              <div class="service-number">01</div>
-              <h3>Full Wedding Planning</h3>
-              <p>From conceptualization to execution, we handle every detail so you can enjoy your engagement period stress-free.</p>
+          <div class="steps-grid reveal-fade" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; text-align: center;">
+            <div class="step-card" style="padding: 2rem; background: var(--white); border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+              <div class="step-number" style="font-family: var(--font-heading); font-size: 3rem; color: var(--gold); line-height: 1;">01</div>
+              <h4 style="margin: 1rem 0 0.5rem; color: var(--black);">Pilih Venue</h4>
+              <p style="font-size: 0.9rem; color: var(--text-dark);">Pilih venue impian dari katalog pilihan kami.</p>
             </div>
-            <div class="service-card">
-              <div class="service-number">02</div>
-              <h3>D-Day Coordination</h3>
-              <p>For couples who have planned their wedding but need professional execution on the big day.</p>
+            <div class="step-card" style="padding: 2rem; background: var(--white); border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+              <div class="step-number" style="font-family: var(--font-heading); font-size: 3rem; color: var(--gold); line-height: 1;">02</div>
+              <h4 style="margin: 1rem 0 0.5rem; color: var(--black);">Isi Form Booking</h4>
+              <p style="font-size: 0.9rem; color: var(--text-dark);">Klik venue dan isi data rencana pernikahan Anda.</p>
             </div>
-            <div class="service-card">
-              <div class="service-number">03</div>
-              <h3>Intimate Engagement</h3>
-              <p>Designing beautiful, private engagement ceremonies that perfectly reflect your personality as a couple.</p>
+            <div class="step-card" style="padding: 2rem; background: var(--white); border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+              <div class="step-number" style="font-family: var(--font-heading); font-size: 3rem; color: var(--gold); line-height: 1;">03</div>
+              <h4 style="margin: 1rem 0 0.5rem; color: var(--black);">Konsultasi & Meeting</h4>
+              <p style="font-size: 0.9rem; color: var(--text-dark);">Tim kami akan menghubungi untuk diskusi detail & survey.</p>
+            </div>
+            <div class="step-card" style="padding: 2rem; background: var(--white); border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+              <div class="step-number" style="font-family: var(--font-heading); font-size: 3rem; color: var(--gold); line-height: 1;">04</div>
+              <h4 style="margin: 1rem 0 0.5rem; color: var(--black);">Deal & Pembayaran</h4>
+              <p style="font-size: 0.9rem; color: var(--text-dark);">Booking tanggal dengan DP dan mari mulai merancang!</p>
             </div>
           </div>
         </div>
       </section>
 
       <!-- Packages Section -->
-      <section class="packages section-padding" id="packages" style="background-color: var(--gray);">
+      <section class="packages section-padding" id="services" style="background-color: var(--gray);">
         <div class="container">
           <div class="text-center reveal-fade" style="margin-bottom: 4rem;">
             <h2 class="section-title"><span class="script-initial">I</span>ntimate Package</h2>
-            <p style="font-size: 1.5rem; color: var(--gold); font-family: var(--font-heading);">cuma 24jt aja🥺</p>
+            <p style="font-size: 1.5rem; color: var(--gold); font-family: var(--font-heading);">Mulai dari Rp24.000.000,-</p>
             <p style="text-transform: uppercase; letter-spacing: 2px; font-size: 0.9rem; margin-top: 1rem;">Venue Cafe/Resto/Rumah Makan/Hotel &bull; All In 100 pax</p>
           </div>
 
-          <div class="package-grid reveal-fade" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-bottom: 4rem;">
+          <div class="package-grid reveal-fade" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2.5rem; margin-bottom: 4rem;">
+            <style>
+              .package-img-wrapper {
+                width: 100%;
+                height: 220px;
+                overflow: hidden;
+                position: relative;
+              }
+              .package-img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: transform 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+              }
+              .package-card:hover .package-img {
+                transform: scale(1.05);
+              }
+              .package-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 15px 35px rgba(0,0,0,0.08) !important;
+              }
+              .package-content {
+                padding: 2rem;
+                flex-grow: 1;
+              }
+            </style>
             <!-- Venue & Catering -->
-            <div class="package-card" style="background: var(--white); padding: 2.5rem 2rem; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.03); transition: transform 0.3s ease;">
-              <h3 style="font-family: var(--font-heading); color: var(--gold); margin-bottom: 1.5rem; font-size: 1.3rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); padding-bottom: 0.5rem;">VENUE & CATERING</h3>
-              <ul style="list-style-type: none; padding: 0; color: var(--text-dark); font-size: 0.95rem; line-height: 1.8;">
-                <li style="margin-bottom: 0.5rem; display: flex; align-items: flex-start; gap: 10px;"><span style="color: var(--gold);">✦</span> Venue pilihan (durasi 3-4jam)</li>
-                <li style="margin-bottom: 0.5rem; display: flex; align-items: flex-start; gap: 10px;"><span style="color: var(--gold);">✦</span> Catering 100 pax (Menu mengikuti venue pilihan)</li>
-              </ul>
+            <div class="package-card" style="background: var(--white); border: 1px solid rgba(197, 160, 89, 0.15); border-radius: 16px; transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); position: relative; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.02); display: flex; flex-direction: column; cursor: default;">
+              <div style="position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: linear-gradient(90deg, var(--gold), var(--gold-light)); z-index: 2;"></div>
+              <div class="package-img-wrapper">
+                <img src="/images/catering.jpg" alt="Venue & Catering" class="package-img" />
+              </div>
+              <div class="package-content">
+                <h3 style="font-family: var(--font-heading); color: var(--black); margin-bottom: 1.5rem; font-size: 1.4rem; font-weight: 600;">Venue & Catering</h3>
+                <ul style="list-style-type: none; padding: 0; color: var(--text-dark); font-size: 1rem; line-height: 1.7;">
+                  <li style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 0.8rem;"><span style="color: var(--gold); font-size: 1.2rem; line-height: 1.2;">✧</span> <span>Venue pilihan (durasi 3-4jam)</span></li>
+                  <li style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 0.8rem;"><span style="color: var(--gold); font-size: 1.2rem; line-height: 1.2;">✧</span> <span>Catering 100 pax (Menu sesuai venue)</span></li>
+                </ul>
+              </div>
             </div>
             
             <!-- Decoration -->
-            <div class="package-card" style="background: var(--white); padding: 2.5rem 2rem; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.03); transition: transform 0.3s ease;">
-              <h3 style="font-family: var(--font-heading); color: var(--gold); margin-bottom: 1.5rem; font-size: 1.3rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); padding-bottom: 0.5rem;">DECORATION</h3>
-              <ul style="list-style-type: none; padding: 0; color: var(--text-dark); font-size: 0.95rem; line-height: 1.8;">
-                <li style="margin-bottom: 0.5rem; display: flex; align-items: flex-start; gap: 10px;"><span style="color: var(--gold);">✦</span> Dekor Pelaminan 4 meter</li>
-                <li style="margin-bottom: 0.5rem; display: flex; align-items: flex-start; gap: 10px;"><span style="color: var(--gold);">✦</span> Karpet Pelaminan</li>
-                <li style="margin-bottom: 0.5rem; display: flex; align-items: flex-start; gap: 10px;"><span style="color: var(--gold);">✦</span> 2 Standing Flower</li>
-                <li style="margin-bottom: 0.5rem; display: flex; align-items: flex-start; gap: 10px;"><span style="color: var(--gold);">✦</span> Kotak angpau</li>
-                <li style="margin-bottom: 0.5rem; display: flex; align-items: flex-start; gap: 10px;"><span style="color: var(--gold);">✦</span> Set akad</li>
-                <li style="margin-bottom: 0.5rem; display: flex; align-items: flex-start; gap: 10px;"><span style="color: var(--gold);">✦</span> Welcome Sign</li>
-                <li style="display: flex; align-items: flex-start; gap: 10px;"><span style="color: var(--gold);">✦</span> Gate Simple</li>
-              </ul>
+            <div class="package-card" style="background: var(--white); border: 1px solid rgba(197, 160, 89, 0.15); border-radius: 16px; transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); position: relative; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.02); display: flex; flex-direction: column; cursor: default;">
+              <div style="position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: linear-gradient(90deg, var(--gold), var(--gold-light)); z-index: 2;"></div>
+              <div class="package-img-wrapper">
+                <img src="/images/decoration.jpg" alt="Decoration" class="package-img" />
+              </div>
+              <div class="package-content">
+                <h3 style="font-family: var(--font-heading); color: var(--black); margin-bottom: 1.5rem; font-size: 1.4rem; font-weight: 600;">Decoration</h3>
+                <ul style="list-style-type: none; padding: 0; color: var(--text-dark); font-size: 1rem; line-height: 1.7;">
+                  <li style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 0.8rem;"><span style="color: var(--gold); font-size: 1.2rem; line-height: 1.2;">✧</span> <span>Dekor Pelaminan 4 meter</span></li>
+                  <li style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 0.8rem;"><span style="color: var(--gold); font-size: 1.2rem; line-height: 1.2;">✧</span> <span>Karpet Pelaminan & Set Akad</span></li>
+                  <li style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 0.8rem;"><span style="color: var(--gold); font-size: 1.2rem; line-height: 1.2;">✧</span> <span>2 Standing Flower & Kotak Angpau</span></li>
+                  <li style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 0.8rem;"><span style="color: var(--gold); font-size: 1.2rem; line-height: 1.2;">✧</span> <span>Welcome Sign & Gate Simple</span></li>
+                </ul>
+              </div>
             </div>
 
             <!-- Documentation -->
-            <div class="package-card" style="background: var(--white); padding: 2.5rem 2rem; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.03); transition: transform 0.3s ease;">
-              <h3 style="font-family: var(--font-heading); color: var(--gold); margin-bottom: 1.5rem; font-size: 1.3rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); padding-bottom: 0.5rem;">DOCUMENTATION</h3>
-              <ul style="list-style-type: none; padding: 0; color: var(--text-dark); font-size: 0.95rem; line-height: 1.8;">
-                <li style="margin-bottom: 0.5rem; display: flex; align-items: flex-start; gap: 10px;"><span style="color: var(--gold);">✦</span> 1 Professional photographer</li>
-                <li style="margin-bottom: 0.5rem; display: flex; align-items: flex-start; gap: 10px;"><span style="color: var(--gold);">✦</span> Unlimited photoshoot</li>
-                <li style="display: flex; align-items: flex-start; gap: 10px;"><span style="color: var(--gold);">✦</span> File edit via gdrive</li>
-              </ul>
+            <div class="package-card" style="background: var(--white); border: 1px solid rgba(197, 160, 89, 0.15); border-radius: 16px; transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); position: relative; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.02); display: flex; flex-direction: column; cursor: default;">
+              <div style="position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: linear-gradient(90deg, var(--gold), var(--gold-light)); z-index: 2;"></div>
+              <div class="package-img-wrapper">
+                <img src="/images/documentation.jpg" alt="Documentation" class="package-img" />
+              </div>
+              <div class="package-content">
+                <h3 style="font-family: var(--font-heading); color: var(--black); margin-bottom: 1.5rem; font-size: 1.4rem; font-weight: 600;">Documentation</h3>
+                <ul style="list-style-type: none; padding: 0; color: var(--text-dark); font-size: 1rem; line-height: 1.7;">
+                  <li style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 0.8rem;"><span style="color: var(--gold); font-size: 1.2rem; line-height: 1.2;">✧</span> <span>1 Professional Photographer</span></li>
+                  <li style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 0.8rem;"><span style="color: var(--gold); font-size: 1.2rem; line-height: 1.2;">✧</span> <span>Unlimited Photoshoot</span></li>
+                  <li style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 0.8rem;"><span style="color: var(--gold); font-size: 1.2rem; line-height: 1.2;">✧</span> <span>File edit via Google Drive</span></li>
+                </ul>
+              </div>
             </div>
 
             <!-- MC & WO -->
-            <div class="package-card" style="background: var(--white); padding: 2.5rem 2rem; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.03); transition: transform 0.3s ease;">
-              <h3 style="font-family: var(--font-heading); color: var(--gold); margin-bottom: 1.5rem; font-size: 1.3rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); padding-bottom: 0.5rem;">MC & WO</h3>
-              <ul style="list-style-type: none; padding: 0; color: var(--text-dark); font-size: 0.95rem; line-height: 1.8;">
-                <li style="margin-bottom: 0.5rem; display: flex; align-items: flex-start; gap: 10px;"><span style="color: var(--gold);">✦</span> 1 MC</li>
-                <li style="margin-bottom: 0.5rem; display: flex; align-items: flex-start; gap: 10px;"><span style="color: var(--gold);">✦</span> 4 Crew WO</li>
-                <li style="margin-bottom: 0.5rem; display: flex; align-items: flex-start; gap: 10px;"><span style="color: var(--gold);">✦</span> Rundown acara</li>
-                <li style="margin-bottom: 0.5rem; display: flex; align-items: flex-start; gap: 10px;"><span style="color: var(--gold);">✦</span> Koordinasi vendor</li>
-                <li style="margin-bottom: 0.5rem; display: flex; align-items: flex-start; gap: 10px;"><span style="color: var(--gold);">✦</span> 1x Technical Meeting</li>
-                <li style="display: flex; align-items: flex-start; gap: 10px;"><span style="color: var(--gold);">✦</span> Berseragam rapi</li>
-              </ul>
+            <div class="package-card" style="background: var(--white); border: 1px solid rgba(197, 160, 89, 0.15); border-radius: 16px; transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); position: relative; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.02); display: flex; flex-direction: column; cursor: default;">
+              <div style="position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: linear-gradient(90deg, var(--gold), var(--gold-light)); z-index: 2;"></div>
+              <div class="package-img-wrapper">
+                <img src="/images/mc.jpg" alt="MC & WO" class="package-img" />
+              </div>
+              <div class="package-content">
+                <h3 style="font-family: var(--font-heading); color: var(--black); margin-bottom: 1.5rem; font-size: 1.4rem; font-weight: 600;">MC & WO</h3>
+                <ul style="list-style-type: none; padding: 0; color: var(--text-dark); font-size: 1rem; line-height: 1.7;">
+                  <li style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 0.8rem;"><span style="color: var(--gold); font-size: 1.2rem; line-height: 1.2;">✧</span> <span>1 Professional MC</span></li>
+                  <li style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 0.8rem;"><span style="color: var(--gold); font-size: 1.2rem; line-height: 1.2;">✧</span> <span>4 Crew WO berseragam rapi</span></li>
+                  <li style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 0.8rem;"><span style="color: var(--gold); font-size: 1.2rem; line-height: 1.2;">✧</span> <span>Rundown & Koordinasi Vendor</span></li>
+                  <li style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 0.8rem;"><span style="color: var(--gold); font-size: 1.2rem; line-height: 1.2;">✧</span> <span>1x Technical Meeting</span></li>
+                </ul>
+              </div>
             </div>
 
             <!-- MUA & ATTIRE -->
-            <div class="package-card" style="background: var(--white); padding: 2.5rem 2rem; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.03); transition: transform 0.3s ease;">
-              <h3 style="font-family: var(--font-heading); color: var(--gold); margin-bottom: 1.5rem; font-size: 1.3rem; border-bottom: 1px solid rgba(197, 160, 89, 0.2); padding-bottom: 0.5rem;">MUA & ATTIRE</h3>
-              <ul style="list-style-type: none; padding: 0; color: var(--text-dark); font-size: 0.95rem; line-height: 1.8;">
-                <li style="margin-bottom: 0.5rem; display: flex; align-items: flex-start; gap: 10px;"><span style="color: var(--gold);">✦</span> Attire pengantin 1x</li>
-                <li style="margin-bottom: 0.5rem; display: flex; align-items: flex-start; gap: 10px;"><span style="color: var(--gold);">✦</span> Attire ortu & besan 1x</li>
-                <li style="margin-bottom: 0.5rem; display: flex; align-items: flex-start; gap: 10px;"><span style="color: var(--gold);">✦</span> Makeup CPW</li>
-                <li style="margin-bottom: 0.5rem; display: flex; align-items: flex-start; gap: 10px;"><span style="color: var(--gold);">✦</span> Makeup 2 Ibu</li>
-                <li style="margin-bottom: 0.5rem; display: flex; align-items: flex-start; gap: 10px;"><span style="color: var(--gold);">✦</span> Siger/Mahkota</li>
-                <li style="margin-bottom: 0.5rem; display: flex; align-items: flex-start; gap: 10px;"><span style="color: var(--gold);">✦</span> Melati fresh</li>
-                <li style="margin-bottom: 0.5rem; display: flex; align-items: flex-start; gap: 10px;"><span style="color: var(--gold);">✦</span> Hijab/Hair do</li>
-                <li style="display: flex; align-items: flex-start; gap: 10px;"><span style="color: var(--gold);">✦</span> Henna, Nails, Softlens</li>
-              </ul>
+            <div class="package-card" style="background: var(--white); border: 1px solid rgba(197, 160, 89, 0.15); border-radius: 16px; transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); position: relative; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.02); display: flex; flex-direction: column; cursor: default;">
+              <div style="position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: linear-gradient(90deg, var(--gold), var(--gold-light)); z-index: 2;"></div>
+              <div class="package-img-wrapper">
+                <img src="/images/mua.jpg" alt="MUA & Attire" class="package-img" />
+              </div>
+              <div class="package-content">
+                <h3 style="font-family: var(--font-heading); color: var(--black); margin-bottom: 1.5rem; font-size: 1.4rem; font-weight: 600;">MUA & Attire</h3>
+                <ul style="list-style-type: none; padding: 0; color: var(--text-dark); font-size: 1rem; line-height: 1.7;">
+                  <li style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 0.8rem;"><span style="color: var(--gold); font-size: 1.2rem; line-height: 1.2;">✧</span> <span>Attire CPW & CPP 1x</span></li>
+                  <li style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 0.8rem;"><span style="color: var(--gold); font-size: 1.2rem; line-height: 1.2;">✧</span> <span>Attire & Makeup Ortu Besan 1x</span></li>
+                  <li style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 0.8rem;"><span style="color: var(--gold); font-size: 1.2rem; line-height: 1.2;">✧</span> <span>Makeup CPW, Hijab/Hairdo</span></li>
+                  <li style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 0.8rem;"><span style="color: var(--gold); font-size: 1.2rem; line-height: 1.2;">✧</span> <span>Siger/Mahkota, Melati Fresh</span></li>
+                  <li style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 0.8rem;"><span style="color: var(--gold); font-size: 1.2rem; line-height: 1.2;">✧</span> <span>Henna, Nails, Softlens</span></li>
+                </ul>
+              </div>
             </div>
 
             <!-- BONUS -->
-            <div class="package-card" style="background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 100%); padding: 2.5rem 2rem; border-radius: 15px; box-shadow: 0 10px 30px rgba(197, 160, 89, 0.2); transition: transform 0.3s ease; color: var(--black);">
-              <h3 style="font-family: var(--font-heading); color: var(--black); margin-bottom: 1.5rem; font-size: 1.3rem; border-bottom: 1px solid rgba(0, 0, 0, 0.1); padding-bottom: 0.5rem;">BONUS</h3>
-              <ul style="list-style-type: none; padding: 0; font-size: 0.95rem; line-height: 1.8; font-weight: 500;">
-                <li style="margin-bottom: 0.5rem; display: flex; align-items: flex-start; gap: 10px;"><span>🎁</span> Hand bouqet (by request)</li>
-                <li style="display: flex; align-items: flex-start; gap: 10px;"><span>🎁</span> 10 Box akrilik hantaran</li>
-              </ul>
+            <div class="package-card" style="background: linear-gradient(135deg, rgba(197, 160, 89, 0.1) 0%, rgba(197, 160, 89, 0.2) 100%); border: 1px solid rgba(197, 160, 89, 0.4); border-radius: 16px; transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); position: relative; overflow: hidden; box-shadow: 0 4px 20px rgba(197, 160, 89, 0.1); display: flex; flex-direction: column; cursor: default;">
+              <div style="position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: var(--gold); z-index: 2;"></div>
+              <div class="package-img-wrapper" style="height: 160px;">
+                <img src="/images/wa_weddingplanner_645509220_18388809946153361_9164901203461665803_n.jpg" alt="Bonus" class="package-img" />
+              </div>
+              <div class="package-content">
+                <h3 style="font-family: var(--font-heading); color: var(--gold); margin-bottom: 1.5rem; font-size: 1.4rem; font-weight: 600;">Bonus Exclusive</h3>
+                <ul style="list-style-type: none; padding: 0; color: var(--black); font-size: 1rem; line-height: 1.7; font-weight: 500;">
+                  <li style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 0.8rem;"><span style="color: var(--gold); font-size: 1.2rem; line-height: 1.2;">🎁</span> <span>Hand bouquet (by request)</span></li>
+                  <li style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 0.8rem;"><span style="color: var(--gold); font-size: 1.2rem; line-height: 1.2;">🎁</span> <span>10 Box akrilik hantaran</span></li>
+                </ul>
+              </div>
             </div>
           </div>
 
           <!-- Venue List -->
           <style>
-            .venue-img { transition: transform 0.6s ease; }
-            .venue-card-modern:hover .venue-img { transform: scale(1.08); }
+            .venue-img { transition: transform 0.8s cubic-bezier(0.165, 0.84, 0.44, 1); }
+            .venue-card-modern:hover .venue-img { transform: scale(1.05); }
             .venue-card-modern {
               background: var(--white);
-              border-radius: 12px;
+              border: 1px solid rgba(0,0,0,0.05);
               overflow: hidden;
-              box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-              transition: all 0.3s ease;
+              transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
               cursor: pointer;
             }
             .venue-card-modern:hover {
-              transform: translateY(-8px);
-              box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+              transform: translateY(-5px);
+              box-shadow: 0 15px 35px rgba(0,0,0,0.08);
             }
           </style>
 
-          <div class="venue-list-container reveal-fade" style="padding: 2rem 0 4rem; margin-bottom: 2rem;">
+          <div class="venue-list-container reveal-fade" id="packages" style="padding: 2rem 0 4rem; margin-bottom: 2rem;">
             <div class="text-center" style="margin-bottom: 3rem;">
               <h3 style="font-family: var(--font-heading); font-size: clamp(1.8rem, 3vw, 2.5rem); color: var(--black); margin-bottom: 0.5rem;">Pilihan Paket Venue</h3>
               <p style="color: var(--text-dark); font-size: 1.1rem; max-width: 600px; margin: 0 auto;">Pilih venue impianmu. Semua paket sudah All-In 100 pax.</p>
             </div>
             
-            <div id="venue-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 2rem;">
+            <div id="venue-grid" class="venue-grid-container">
 
-              <div class="venue-card-modern">
-                <div style="width: 100%; height: 200px; overflow: hidden; position: relative;">
-                  <img src="/images/portfolio_1.png" class="venue-img" style="width: 100%; height: 100%; object-fit: cover;" alt="Mang Kabayan" />
+              <div class="venue-card-modern reveal-fade">
+                <div class="venue-img-wrapper">
+                  <img src="/images/wa_weddingplanner_639514205_18386872477153361_6399780977498644749_n.jpg" class="venue-img" style="width: 100%; height: 100%; object-fit: cover; object-position: center 25%;" alt="Mang Kabayan" />
                   <div style="position: absolute; top: 1rem; right: 1rem; background: var(--white); color: var(--black); font-size: 0.8rem; font-weight: bold; padding: 0.3rem 0.8rem; border-radius: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">ALL IN 100 PAX</div>
                 </div>
                 <div style="padding: 1.5rem; text-align: center;">
@@ -250,9 +342,9 @@
                   <p style="color: var(--gold); margin: 0; font-weight: 700; font-size: 1.1rem;">Rp24.000.000</p>
                 </div>
               </div>
-              <div class="venue-card-modern">
-                <div style="width: 100%; height: 200px; overflow: hidden; position: relative;">
-                  <img src="/images/portfolio_2.png" class="venue-img" style="width: 100%; height: 100%; object-fit: cover;" alt="Ganesha" />
+              <div class="venue-card-modern reveal-fade">
+                <div class="venue-img-wrapper">
+                  <img src="/images/wa_weddingplanner_639797907_18387199210153361_2066491183921168205_n.jpg" class="venue-img" style="width: 100%; height: 100%; object-fit: cover; object-position: center 25%;" alt="Ganesha" />
                   <div style="position: absolute; top: 1rem; right: 1rem; background: var(--white); color: var(--black); font-size: 0.8rem; font-weight: bold; padding: 0.3rem 0.8rem; border-radius: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">ALL IN 100 PAX</div>
                 </div>
                 <div style="padding: 1.5rem; text-align: center;">
@@ -260,9 +352,9 @@
                   <p style="color: var(--gold); margin: 0; font-weight: 700; font-size: 1.1rem;">Rp24.000.000</p>
                 </div>
               </div>
-              <div class="venue-card-modern">
-                <div style="width: 100%; height: 200px; overflow: hidden; position: relative;">
-                  <img src="/images/portfolio_3.png" class="venue-img" style="width: 100%; height: 100%; object-fit: cover;" alt="RM Alam Pilemburan" />
+              <div class="venue-card-modern reveal-fade">
+                <div class="venue-img-wrapper">
+                  <img src="/images/wa_weddingplanner_639847445_18387637324153361_8944207428109375048_n.jpg" class="venue-img" style="width: 100%; height: 100%; object-fit: cover; object-position: center 25%;" alt="RM Alam Pilemburan" />
                   <div style="position: absolute; top: 1rem; right: 1rem; background: var(--white); color: var(--black); font-size: 0.8rem; font-weight: bold; padding: 0.3rem 0.8rem; border-radius: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">ALL IN 100 PAX</div>
                 </div>
                 <div style="padding: 1.5rem; text-align: center;">
@@ -270,9 +362,9 @@
                   <p style="color: var(--gold); margin: 0; font-weight: 700; font-size: 1.1rem;">Rp24.000.000</p>
                 </div>
               </div>
-              <div class="venue-card-modern">
-                <div style="width: 100%; height: 200px; overflow: hidden; position: relative;">
-                  <img src="/images/portfolio_4.png" class="venue-img" style="width: 100%; height: 100%; object-fit: cover;" alt="Kopi Tahura" />
+              <div class="venue-card-modern reveal-fade">
+                <div class="venue-img-wrapper">
+                  <img src="/images/wa_weddingplanner_641330447_18387860746153361_2362668870059087128_n.jpg" class="venue-img" style="width: 100%; height: 100%; object-fit: cover; object-position: center 25%;" alt="Kopi Tahura" />
                   <div style="position: absolute; top: 1rem; right: 1rem; background: var(--white); color: var(--black); font-size: 0.8rem; font-weight: bold; padding: 0.3rem 0.8rem; border-radius: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">ALL IN 100 PAX</div>
                 </div>
                 <div style="padding: 1.5rem; text-align: center;">
@@ -280,9 +372,9 @@
                   <p style="color: var(--gold); margin: 0; font-weight: 700; font-size: 1.1rem;">Rp24.000.000</p>
                 </div>
               </div>
-              <div class="venue-card-modern">
-                <div style="width: 100%; height: 200px; overflow: hidden; position: relative;">
-                  <img src="/images/portfolio_5.png" class="venue-img" style="width: 100%; height: 100%; object-fit: cover;" alt="Airmen 25" />
+              <div class="venue-card-modern reveal-fade">
+                <div class="venue-img-wrapper">
+                  <img src="/images/wa_weddingplanner_648997738_18388724632153361_8234042692745380489_n.jpg" class="venue-img" style="width: 100%; height: 100%; object-fit: cover; object-position: center 25%;" alt="Airmen 25" />
                   <div style="position: absolute; top: 1rem; right: 1rem; background: var(--white); color: var(--black); font-size: 0.8rem; font-weight: bold; padding: 0.3rem 0.8rem; border-radius: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">ALL IN 100 PAX</div>
                 </div>
                 <div style="padding: 1.5rem; text-align: center;">
@@ -290,9 +382,9 @@
                   <p style="color: var(--gold); margin: 0; font-weight: 700; font-size: 1.1rem;">Rp24.000.000</p>
                 </div>
               </div>
-              <div class="venue-card-modern">
-                <div style="width: 100%; height: 200px; overflow: hidden; position: relative;">
-                  <img src="/images/portfolio_6.png" class="venue-img" style="width: 100%; height: 100%; object-fit: cover;" alt="Nuuji" />
+              <div class="venue-card-modern reveal-fade">
+                <div class="venue-img-wrapper">
+                  <img src="/images/wa_weddingplanner_649964684_18389205679153361_8706861645018206310_n.jpg" class="venue-img" style="width: 100%; height: 100%; object-fit: cover; object-position: center 25%;" alt="Nuuji" />
                   <div style="position: absolute; top: 1rem; right: 1rem; background: var(--white); color: var(--black); font-size: 0.8rem; font-weight: bold; padding: 0.3rem 0.8rem; border-radius: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">ALL IN 100 PAX</div>
                 </div>
                 <div style="padding: 1.5rem; text-align: center;">
@@ -321,7 +413,7 @@
           <h2 class="section-title text-center reveal-text"><span class="script-initial">O</span>ur Signature Collections</h2>
           
           <div class="portfolio-grid reveal-fade">
-            <a href="#" class="grid-item">
+            <a href="javascript:void(0)" class="grid-item">
               <img src="/images/wa_weddingplanner_604594719_18378691975153361_8482502786223473575_n.jpg" alt="Adinda & Dean" />
               <div class="grid-overlay">
                 <span class="badge">Editor Collection</span>
@@ -329,7 +421,7 @@
                 <p>Bandung Convention Centre</p>
               </div>
             </a>
-            <a href="#" class="grid-item">
+            <a href="javascript:void(0)" class="grid-item">
               <img src="/images/wa_weddingplanner_623657218_18382768870153361_5163603875966347756_n.jpg" alt="Marcel & Stelcya" />
               <div class="grid-overlay">
                 <span class="badge">Editor Collection</span>
@@ -337,7 +429,7 @@
                 <p>Omah Pakem (Serenity In Nature)</p>
               </div>
             </a>
-            <a href="#" class="grid-item">
+            <a href="javascript:void(0)" class="grid-item">
               <img src="/images/wa_weddingplanner_624595716_18383020762153361_8584612868500801603_n.jpg" alt="Hans & Felita" />
               <div class="grid-overlay">
                 <span class="badge">Editor Collection</span>
@@ -345,7 +437,7 @@
                 <p>Jakarta Grand Ballroom</p>
               </div>
             </a>
-            <a href="#" class="grid-item">
+            <a href="javascript:void(0)" class="grid-item">
               <img src="/images/wa_weddingplanner_626624517_18384099499153361_494313317223290399_n.jpg" alt="Putri & Albera" />
               <div class="grid-overlay">
                 <span class="badge">Editor Collection</span>
@@ -364,7 +456,7 @@
             <div class="cta-box">
               <h3>Start Planning Your Dream Wedding</h3>
               <p>Setiap pernikahan adalah mahakarya yang berbeda. Konsultasikan visi Anda, dan biarkan kami merancangnya.</p>
-              <a href="https://wa.me/6285973929029" class="btn btn-primary" target="_blank">Book Consultation via WhatsApp</a>
+              <a href="https://wa.me/6285973929029?text=Halo%20Admin%20Oretta,%20saya%20ingin%20konsultasi%20mengenai%20Wedding%20Package" class="btn btn-primary" target="_blank">Book Consultation via WhatsApp</a>
             </div>
           </div>
         </div>
@@ -410,63 +502,25 @@
         </div>
       </section>
 
-      <!-- Awards Section -->
-      <section class="awards section-padding dark-section">
-        <div class="container">
-          <h2 class="section-title text-center reveal-text" style="color: var(--white);"><span class="script-initial">A</span>wards & Recognition</h2>
-          <div class="awards-grid reveal-fade">
-            <div class="award-item">
-              <div class="award-year">2024</div>
-              <h4>Best Wedding Organizer</h4>
-              <p>Weddingku Awards</p>
-            </div>
-            <div class="award-item">
-              <div class="award-year">2023</div>
-              <h4>Trendsetter Award</h4>
-              <p>Bridestory</p>
-            </div>
-            <div class="award-item">
-              <div class="award-year">2023</div>
-              <h4>Most Innovative Concept</h4>
-              <p>Jakarta Wedding Festival</p>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <!-- Contact / Locations -->
-      <section class="contact section-padding" id="contact">
-        <div class="container">
-          <div class="contact-header text-center reveal-fade">
-            <h2 class="section-title"><span class="script-initial">R</span>each Us</h2>
-            <p>Ready to start planning your dream wedding? Visit us or reach out via our service channels.</p>
-          </div>
-          
-          <div class="links-grid reveal-fade">
-            <a href="https://bit.ly/48f03Ry?utm_medium=social&utm_source=linktree&utm_campaign=kota+++bandung+" target="_blank" class="location-card">
-              <span class="city">Bandung</span>
-              <span class="desc">Main Office & Consultation</span>
-              <div class="arrow">→</div>
-            </a>
-            <a href="https://wa.me/6282295230498?utm_medium=social&utm_source=linktree&utm_campaign=kota+jakarta" target="_blank" class="location-card">
-              <span class="city">Jakarta</span>
-              <span class="desc">Branch Office</span>
-              <div class="arrow">→</div>
-            </a>
-            <a href="https://wa.me/6282295230498?utm_medium=social&utm_source=linktree&utm_campaign=kota+bogor" target="_blank" class="location-card">
-              <span class="city">Bogor</span>
-              <span class="desc">Branch Office</span>
-              <div class="arrow">→</div>
-            </a>
-            <a href="https://wa.me/6281221625848/?utm_medium=social&utm_source=linktree&utm_campaign=complaint+service+" target="_blank" class="location-card highlight">
-              <span class="city">Complaint Service</span>
-              <span class="desc">Dedicated Customer Support</span>
-              <div class="arrow">→</div>
-            </a>
-          </div>
-        </div>
-      </section>
     </main>
+
+    <!-- Reach Us Section -->
+    <section class="reach-us section-padding" id="contact" style="background-color: var(--white); text-align: center; border-top: 1px solid rgba(0,0,0,0.05);">
+      <div class="container">
+        <div class="text-center reveal-fade" style="margin-bottom: 3rem;">
+          <h2 class="section-title"><span class="script-initial">R</span>each Us</h2>
+          <p style="color: var(--text-dark); font-size: 1.1rem; font-weight: 300;">Let's connect and start planning your golden moment.</p>
+        </div>
+        
+        <div class="reveal-fade" style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">
+          <a href="https://wa.me/6285973929029?text=Halo%20Admin%20Oretta,%20saya%20ingin%20konsultasi%20mengenai%20Wedding%20Package" target="_blank" class="btn btn-outline" style="width: 100%; max-width: 320px; border: 1px solid var(--black); color: var(--black); padding: 1.2rem; border-radius: 50px; font-weight: 500; font-size: 1.1rem;">WhatsApp ↗</a>
+          <a href="https://instagram.com/oretta.official" target="_blank" class="btn btn-outline" style="width: 100%; max-width: 320px; border: 1px solid var(--black); color: var(--black); padding: 1.2rem; border-radius: 50px; font-weight: 500; font-size: 1.1rem;">Instagram ↗</a>
+          <a href="https://tiktok.com/@oretta.official" target="_blank" class="btn btn-outline" style="width: 100%; max-width: 320px; border: 1px solid var(--black); color: var(--black); padding: 1.2rem; border-radius: 50px; font-weight: 500; font-size: 1.1rem;">TikTok ↗</a>
+          <a href="https://linktr.ee/oretta.official" target="_blank" class="btn btn-outline" style="width: 100%; max-width: 320px; border: 1px solid var(--black); color: var(--black); padding: 1.2rem; border-radius: 50px; font-weight: 500; font-size: 1.1rem;">Linktree ↗</a>
+        </div>
+      </div>
+    </section>
 
     <!-- Footer -->
     <footer class="footer">
@@ -488,11 +542,11 @@
         </div>
         <div class="footer-bottom">
           <p>&copy; 2026 Oretta Wedding Organizer. All rights reserved.</p>
-          <a href="#">Designed to Wow</a>
+          <a href="javascript:void(0)">Designed to Wow</a>
         </div>
       </div>
     </footer>
-    <a href="https://wa.me/6285973929029" class="floating-chat" target="_blank">
+    <a href="https://wa.me/6285973929029?text=Halo%20Admin%20Oretta,%20saya%20ingin%20konsultasi%20mengenai%20Wedding%20Package" class="floating-chat" target="_blank">
       <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
         <path d="M12.031 0C5.385 0 0 5.384 0 12.029c0 2.12.55 4.188 1.597 6.002L.032 23.999l6.108-1.603a11.967 11.967 0 005.89 1.554h.005c6.645 0 12.03-5.385 12.03-12.03S18.676 0 12.03 0zm0 21.942h-.003a10.021 10.021 0 01-5.114-1.396l-.367-.217-3.8.997 1.015-3.706-.238-.378a9.982 9.982 0 01-1.528-5.215C1.996 6.49 6.48 2.006 12.031 2.006c2.68 0 5.197 1.045 7.091 2.94a10.01 10.01 0 012.938 7.086c-.001 5.538-4.485 10.022-10.029 10.022zm5.503-7.518c-.302-.151-1.785-.881-2.062-.981-.277-.1-.478-.151-.68.151-.201.302-.781.981-.958 1.182-.176.201-.352.226-.654.075-1.504-.74-2.585-1.401-3.568-3.037-.253-.42-.03-.642.12-.792.136-.136.302-.352.453-.528.151-.176.201-.302.302-.503.1-.201.05-.377-.025-.528-.076-.151-.68-1.636-.931-2.241-.245-.588-.493-.508-.68-.517-.176-.008-.377-.008-.578-.008-.201 0-.528.075-.805.377-.277.302-1.056 1.031-1.056 2.515 0 1.484 1.082 2.918 1.233 3.119.151.201 2.125 3.245 5.146 4.549.719.31 1.28.495 1.718.634.721.229 1.378.197 1.895.119.58-.088 1.785-.73 2.037-1.434.252-.704.252-1.308.176-1.434-.076-.126-.277-.201-.579-.352z"/>
       </svg>
@@ -508,6 +562,35 @@
         <!-- Diamond Highlight -->
         <path d="M9.5 5H14.5L15.5 6.5H8.5L9.5 5Z" fill="#ffffff" />
       </svg>
+    </div>
+
+    <!-- Booking Modal -->
+    <div id="bookingModal" style="display: none; position: fixed; z-index: 9999; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.6); align-items: center; justify-content: center; backdrop-filter: blur(5px);">
+      <div class="modal-content" style="background-color: var(--white); margin: auto; padding: 2.5rem; border: 1px solid #888; width: 90%; max-width: 500px; border-radius: 15px; position: relative; box-shadow: 0 15px 40px rgba(0,0,0,0.2);">
+        <span id="closeModalBtn" style="position: absolute; right: 1.5rem; top: 1.5rem; color: #aaa; font-size: 28px; font-weight: bold; cursor: pointer; line-height: 1;">&times;</span>
+        <h2 style="font-family: var(--font-heading); color: var(--black); margin-bottom: 0.5rem; font-size: 2rem;"><span class="script-initial">B</span>ooking Venue</h2>
+        <p style="color: var(--text-dark); margin-bottom: 2rem; font-size: 0.95rem;">Lengkapi data di bawah ini, admin kami akan segera menghubungi Anda.</p>
+        
+        <form id="bookingForm" style="display: flex; flex-direction: column; gap: 1.2rem;">
+          <div>
+            <label style="display: block; margin-bottom: 0.5rem; font-size: 0.9rem; color: var(--text-dark); font-weight: 500;">Nama Lengkap</label>
+            <input type="text" id="bookingName" required style="width: 100%; padding: 0.8rem 1rem; border: 1px solid #ddd; border-radius: 8px; font-family: var(--font-body); font-size: 1rem;" placeholder="Masukkan nama Anda">
+          </div>
+          <div>
+            <label style="display: block; margin-bottom: 0.5rem; font-size: 0.9rem; color: var(--text-dark); font-weight: 500;">Tanggal Rencana Pernikahan</label>
+            <input type="date" id="bookingDate" required style="width: 100%; padding: 0.8rem 1rem; border: 1px solid #ddd; border-radius: 8px; font-family: var(--font-body); font-size: 1rem;">
+          </div>
+          <div>
+            <label style="display: block; margin-bottom: 0.5rem; font-size: 0.9rem; color: var(--text-dark); font-weight: 500;">Venue Pilihan</label>
+            <input type="text" id="venueInput" readonly style="width: 100%; padding: 0.8rem 1rem; border: 1px solid #ddd; border-radius: 8px; background: #f5f5f5; font-family: var(--font-body); font-size: 1rem; color: var(--black); font-weight: 600;">
+          </div>
+          <div>
+            <label style="display: block; margin-bottom: 0.5rem; font-size: 0.9rem; color: var(--text-dark); font-weight: 500;">Catatan Tambahan (Opsional)</label>
+            <textarea id="bookingNotes" rows="3" style="width: 100%; padding: 0.8rem 1rem; border: 1px solid #ddd; border-radius: 8px; font-family: var(--font-body); font-size: 1rem; resize: none;" placeholder="Contoh: Undangan sekitar 150 pax"></textarea>
+          </div>
+          <button type="submit" style="background: var(--gold); color: var(--black); border: none; padding: 1rem; font-size: 1.1rem; border-radius: 8px; font-weight: 600; cursor: pointer; margin-top: 0.5rem; transition: transform 0.3s ease;">Kirim Pesanan via WhatsApp 💬</button>
+        </form>
+      </div>
     </div>
 
     <script type="module" src="/main.js"></script>

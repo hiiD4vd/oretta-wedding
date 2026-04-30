@@ -270,3 +270,53 @@ if (hamburger && navLinks) {
     });
   });
 }
+
+
+// Venue Booking Modal Logic
+document.addEventListener('DOMContentLoaded', () => {
+  const cards = document.querySelectorAll('.venue-card-modern');
+  const modal = document.getElementById('bookingModal');
+  if(!modal) return;
+  
+  const venueInput = document.getElementById('venueInput');
+  const closeBtn = document.getElementById('closeModalBtn');
+  const bookForm = document.getElementById('bookingForm');
+  
+  cards.forEach(card => {
+    card.addEventListener('click', (e) => {
+      // Don't trigger if they clicked a link inside the card
+      if(e.target.tagName.toLowerCase() === 'a') return;
+      
+      const venueName = card.querySelector('h4').innerText;
+      venueInput.value = venueName;
+      modal.style.display = 'flex';
+      // Animate modal in
+      gsap.fromTo('.modal-content', {y: 50, opacity: 0}, {y: 0, opacity: 1, duration: 0.4, ease: 'power2.out'});
+    });
+  });
+  
+  closeBtn.addEventListener('click', () => {
+    gsap.to('.modal-content', {y: 50, opacity: 0, duration: 0.3, ease: 'power2.in', onComplete: () => {
+      modal.style.display = 'none';
+    }});
+  });
+  
+  window.addEventListener('click', (e) => {
+    if (e.target === modal) {
+      closeBtn.click();
+    }
+  });
+  
+  bookForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const nama = document.getElementById('bookingName').value;
+    const date = document.getElementById('bookingDate').value;
+    const venue = venueInput.value;
+    const notes = document.getElementById('bookingNotes').value;
+    
+    let text = `Halo Admin Oretta, saya tertarik memesan Intimate Package 24Jt All-In.\n\n*Nama:* ${nama}\n*Tanggal Pernikahan:* ${date}\n*Venue Pilihan:* ${venue}\n*Catatan:* ${notes}\n\nMohon informasi ketersediaan dan detail lebih lanjut.`;
+    const waUrl = `https://wa.me/6285973929029?text=${encodeURIComponent(text)}`;
+    window.open(waUrl, '_blank');
+    closeBtn.click();
+  });
+});

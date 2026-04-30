@@ -202,8 +202,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-outline:hover {
-  background-color: currentColor;
-  color: var(--black);
+  background-color: var(--black) !important;
+  color: var(--white) !important;
+  border-color: var(--black) !important;
 }
 
 /* New Hero Section */
@@ -265,11 +266,13 @@ h1, h2, h3, h4, h5, h6 {
 .script-initial {
   font-family: 'Great Vibes', cursive;
   font-size: 1.8em;
-  line-height: 0.5;
   font-style: italic;
   font-weight: 400;
   color: var(--gold);
-  margin-right: 6px;
+  margin-right: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateY(-2px);
 }
 
 /* About Section */
@@ -482,8 +485,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-primary:hover {
-  background-color: transparent;
-  color: var(--black);
+  background-color: transparent !important;
+  color: var(--black) !important;
+  border-color: var(--black) !important;
 }
 
 /* Testimonials Marquee */
@@ -910,4 +914,87 @@ h1, h2, h3, h4, h5, h6 {
 
 .custom-cursor.hover svg {
   transform: scale(1.6) translateY(-2px);
+}
+
+
+/* --- MOBILE & UX FIXES --- */
+
+.venue-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.venue-img-wrapper {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Custom Cursor Fix for Mobile / Touch Devices */
+@media (pointer: coarse) {
+  .custom-cursor {
+    display: none !important;
+  }
+  body, a, button, .btn {
+    cursor: auto !important;
+  }
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+  /* Force Venue Grid to 2 Columns */
+  .venue-grid-container {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0.8rem !important;
+  }
+  
+  .venue-img-wrapper {
+    height: 180px !important;
+  }
+  
+  .venue-card-modern h4 {
+    font-size: 0.9rem !important;
+    margin-bottom: 0.2rem !important;
+  }
+  
+  .venue-card-modern p {
+    font-size: 0.8rem !important;
+  }
+  
+  .venue-card-modern > div:last-child {
+    padding: 0.8rem !important;
+  }
+  
+  /* Fix Button Symmetry */
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .hero-buttons .btn {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 0.8rem;
+  }
+  
+  /* Prevent long buttons from overflowing off-screen on mobile */
+  .btn, 
+  #view-all-venues-btn {
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+  
+  .reach-us .btn {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
 }
