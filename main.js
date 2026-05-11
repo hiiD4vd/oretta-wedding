@@ -320,3 +320,34 @@ document.addEventListener('DOMContentLoaded', () => {
     closeBtn.click();
   });
 });
+
+// FAQ Accordion Logic
+document.addEventListener('DOMContentLoaded', () => {
+  const faqItems = document.querySelectorAll('.faq-item');
+  faqItems.forEach(item => {
+    const question = item.querySelector('.faq-question');
+    const answer = item.querySelector('.faq-answer');
+    const icon = item.querySelector('.faq-icon');
+    
+    if (question && answer && icon) {
+      question.addEventListener('click', () => {
+        const isOpen = answer.style.maxHeight && answer.style.maxHeight !== '0px';
+        
+        // Close all other FAQs
+        document.querySelectorAll('.faq-answer').forEach(a => {
+          a.style.maxHeight = '0px';
+          a.style.paddingBottom = '0';
+        });
+        document.querySelectorAll('.faq-icon').forEach(i => {
+          i.style.transform = 'rotate(0deg)';
+        });
+        
+        if (!isOpen) {
+          answer.style.maxHeight = answer.scrollHeight + 30 + 'px';
+          answer.style.paddingBottom = '1.5rem';
+          icon.style.transform = 'rotate(45deg)';
+        }
+      });
+    }
+  });
+});
